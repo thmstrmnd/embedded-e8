@@ -18,6 +18,8 @@ ESP8266 is a truly compelling device because of its low cost and thumbsize form 
 3. Logic Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
 4. Transistor Arrays | Qty 2 | 
 5. Half-sized Breadboard | Qty 3 |
+#### For Prototype PCB
+1. TBD
 
 ### Software Used
 1. Arduino IDE - for writing ESP codes
