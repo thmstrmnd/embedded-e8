@@ -1,5 +1,5 @@
 ## ASSEMBLY E8
-**An IoT hardware assembly project that extends the capabilities of ESP826. Hence, enabling fast prototyping and can be used in real world applications as well. The devices used are available in the market, making the assembly flexible and independent.**
+**An open source IoT hardware integration project that extends the capabilities of ESP826 with components that are ready to buy in the market. As a result, fast prototyping and independent development is achieved.
 
 ### Table of Contents
 1. Mission
@@ -18,6 +18,7 @@ ESP8266 is a truly compelling device because of its low cost and thumbsize form 
 3. Logic Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
 4. Transistor Arrays | Qty 2 | 
 5. Half-sized Breadboard | Qty 3 |
+6. LEDs Blue and Green | Qty 1 each
 #### For Prototype PCB
 1. TBD
 
