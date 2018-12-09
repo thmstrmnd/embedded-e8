@@ -27,6 +27,7 @@ ESP8266 is a truly compelling device because of its low cost and thumbsize form 
 1. Arduino IDE (Free) - for writing ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
+4. Sketchup (Free) - for 3D Modelling
 
 
 
