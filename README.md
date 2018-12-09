@@ -1,5 +1,5 @@
 ## ASSEMBLY E8
-**An open source IoT hardware integration project that extends the capabilities of ESP826 with components that are ready to buy in the market. As a result, fast prototyping and independent development is achieved.
+**An open source IoT hardware integration project that extends the capabilities of ESP826 with components that are ready to buy in the market. As a result, fast prototyping and independent development is achieved.**
 
 ### Table of Contents
 1. Mission
