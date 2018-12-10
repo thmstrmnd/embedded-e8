@@ -16,14 +16,15 @@ ESP8266 is a truly compelling device because of its low cost and thumbsize form 
 #### For Breadboard Setup 
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
 2. Multiplexer | Qty 1 | https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide
-3. Logic Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
+3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
 4. Transistor Arrays | Qty 2 | 
 5. Half-sized Breadboard | Qty 3 |
 6. LEDs Blue and Green | Qty 1 each
 #### For Prototype PCB
-1. TBD
+1. WeMos D1 Mini, Multiplexer, Level Converter, Transistor Arrays, LEDs Blue and Green
+2. Stand-off | Qty 6
 
-### Software Used
+### Software Tools
 1. Arduino IDE (Free) - for writing ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
