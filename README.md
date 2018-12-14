@@ -19,6 +19,8 @@ We will also focus on a comprehensive documentation so that majority of the user
 
 There will be 2 types of build. First, the breadboard version and second, the prototyping PCB version. A prototyping PCB is readily available in the market. Take note that we will not design nor etch a PCB board. 
 
+The sequel of this project is called Cloud-E8 where you can now hook this up on the web. You can track your sensor data realtime, control your devices in the field and save these data on a database. 
+
 ### Bill of Materials
 #### For Breadboard Setup 
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
