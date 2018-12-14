@@ -17,6 +17,8 @@ ESP8266 is a truly compelling microcontroller because of its low cost and small 
 
 We will also focus on a comprehensive documentation so that majority of the users will easily comprehend the technical aspects. This documentation is expected to be updated frequently. 
 
+There will be 2 types of build. First, the breadboard version and second, the prototyping PCB version. A prototyping PCB is readily available in the market. Take note that we will not design nor etch a PCB board. 
+
 ### Bill of Materials
 #### For Breadboard Setup 
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
