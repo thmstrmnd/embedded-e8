@@ -3,14 +3,19 @@
 
 ### Table of Contents
 1. Mission
-2. Principles and Concepts
+2. General Principles
 3. Bill of Materials
 4. Software Used
 5. Fundamentals of Electronics
 6. Layman's Diagram
 
-### Principles and Concepts
-ESP8266 is a truly compelling device because of its low cost and thumbsize form factor making IoT truly democratic. However, there are two major challenges of using ESP8266 boards. The first one is it's lack of analog / digital pins. The second one is it's base voltage which 3.3 Volts, not enough to trigger relays and power sensors. Though there are sensors and relays that are rated 3.3V, they are not commonly available. The most common ones are rated 5V. Assembly 8 will solve these problems and consolidate into one integrated solution.
+### Mission
+The mission of this project is first, to be a gateway of IoT education for the young, enthusiasts or professionals. Secondly, is to accelerate adoption of IoT in private and business sectors to improve productivity. 
+
+### General Principles
+ESP8266 is a truly compelling microcontroller because of its low cost and small form factor making IoT truly possible to be democratized. However, there are two major challenges of using ESP8266 boards. The first one is it's lack of analog. The second one is it's base voltage which 3.3 Volts is not enough to trigger relays. Though there are sensors and relays that are rated 3.3V, they are not commonly available. The most common ones are rated 5V. It is the intention of this project to solve these problems consolidate it into one integrated solution. 
+
+We will also focus on a comprehensive documentation so that majority of the users will easily comprehend the technical details. This documentation is expected to be updated frequently. 
 
 ### Bill of Materials
 #### For Breadboard Setup 
