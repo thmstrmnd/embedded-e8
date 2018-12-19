@@ -26,7 +26,7 @@ The sequel of this project is called Cloud-E8 where you can now hook this up on 
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
 2. Multiplexer | Qty 1 | https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide
 3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
-4. Transistor Arrays | Qty 2 | 
+4. Transistor Arrays | Qty 2 | https://www.mouser.com/ds/2/408/ULN2004APG_datasheet_en_20101203-1135705.pdf
 5. Half-sized Breadboard | Qty 3 |
 6. LEDs Blue and Green | Qty 1 each
 #### For Prototype PCB
