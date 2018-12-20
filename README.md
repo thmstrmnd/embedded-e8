@@ -9,10 +9,10 @@
 5. Fundamentals of Electronics
 6. Layman's Diagram
 
-### Mission
+### Project Mission
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
 
-### General Principles
+### Development Principles
 ESP8266 is a truly compelling microcontroller because of its low cost and small form factor making IoT truly possible to be democratized. However, there are two major challenges of using ESP8266 boards. The first one is it's lack of analog. The second one is it's base voltage which 3.3 Volts is not enough to trigger relays. Though there are sensors and relays that are rated 3.3V, they are not commonly available. The most common ones are rated 5V. It is the intention of this project to solve these problems consolidate it into one integrated solution. 
 
 We will also focus on a comprehensive documentation so that majority of the users will easily comprehend the technical aspects. This documentation is expected to be updated frequently. 
