@@ -49,4 +49,8 @@ The build is modularized into 4 parts:
 1. Arduino IDE (Free) - for writing ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
+<<<<<<< HEAD
 4. Sketchup (Free) - for 3D Modelling
+=======
+4. Sketchup (Free) - for 3D Modelling
+>>>>>>> 2892c11bffcedc35297b400fa188f42194837911
