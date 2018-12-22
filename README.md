@@ -8,7 +8,7 @@
 3. Bill of Materials
 4. Software Tools
 5. Connection Diagram
-6. Setting Up ESP
+6. Microcontroller Setup and Code Upload
 
 ### Mission
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -41,6 +41,7 @@ The build is modularized into 4 parts:
 4. Transistor Arrays | Qty 2 | https://www.mouser.com/ds/2/408/ULN2004APG_datasheet_en_20101203-1135705.pdf
 5. Half-sized Breadboard | Qty 3 |
 6. LEDs Blue and Green | Qty 1 each
+
 #### For Prototype PCB
 1. WeMos D1 Mini, Multiplexer, Level Converter, Transistor Arrays, LEDs Blue and Green
 2. Stand-off | Qty 6
@@ -50,3 +51,9 @@ The build is modularized into 4 parts:
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
 4. Sketchup (Free) - for 3D Modelling
+
+### Connection Diagram
+* Follow this link: 
+
+### Microcontroller Setup and Code Upload
+### Setting Up Firmware
