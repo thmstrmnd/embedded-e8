@@ -57,5 +57,5 @@ The build is modularized into 4 parts:
 
 ### Microcontroller Setup and Code Upload
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
-2. Open the IDE then follow these: File -> Preferences -> Additional Boards Manager --> Paste this link: http://arduino.esp8266.com/stable/package_esp8266com_index.json
-3. Tools -> Board -> Board Manager -> search ESP8266 Community, then click install
+2. Open the IDE and click: File -> Preferences -> Additional Boards Manager --> Paste this link: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+3. Then click: Tools -> Board -> Board Manager -> search ESP8266 Community, then click install
