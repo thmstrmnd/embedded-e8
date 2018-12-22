@@ -1,8 +1,5 @@
 /*
-  EXTENDING ESP8266 ANALOG PINS USING MULTIPLEXER (MUX) 
-  Hardware Hookup
-  GPIO D0, D1, D2 @ S0, S1, S2 Respectively
-  A0 ----> Z
+  MODULE 2: EXTENDING ANALOG TO DIGITAL CONVERSION TO 5 PINS
 */
  
 int pinOut00 = D0;
@@ -19,6 +16,8 @@ int pinInA0 = A0;
 int valueInA0 = 0;
 int valueInA1 = 0;
 int valueInA2 = 0;
+int valueInA3 = 0;
+int valueInA4 = 0;
 
 void setup() {                
   Serial.begin(9600);
@@ -65,4 +64,22 @@ void loop() {
     Serial.println (valueInA2);
     delay(750); 
 
+  digitalWrite(pinOut00, HIGH);                   // Y3
+  digitalWrite(pinOut01, HIGH);
+  digitalWrite(pinOut02, LOW);
+  delay(250);
+    valueInA3 = analogRead(pinInA0);             // Sensing voltage input in pin A0 and converting to integer values (0 - 1023)
+    Serial.print("A3 = ");                       // Label the ouput 
+    Serial.println (valueInA3);
+    delay(750); 
+
+ digitalWrite(pinOut00, LOW);                   // Y4
+  digitalWrite(pinOut01, LOW);
+  digitalWrite(pinOut02, HIGH);
+  delay(250);
+    valueInA4 = analogRead(pinInA0);             // Sensing voltage input in pin A0 and converting to integer values (0 - 1023)
+    Serial.print("A4 = ");                       // Label the ouput 
+    Serial.println (valueInA4);
+    delay(750);  
+    
 }
