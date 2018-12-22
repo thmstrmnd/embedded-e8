@@ -14,11 +14,11 @@
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
 
 ### General 
-ESP8266 is a truly compelling microcontroller because of its low cost and small form factor making IoT truly possible to be democratized. However, there are two major challenges of using ESP8266 boards. The first one is it's lack of analog. The second one is it's base voltage which 3.3 Volts is not enough to trigger relays. Though there are sensors and relays that are rated 3.3V, they are not commonly available. The most common ones are rated 5V. It is the intention of this project to solve these problems consolidate it into one integrated solution. 
+ESP8266 is truly impressive microcontroller because of its low cost and small form factor making IoT truly possible to be democratized. However, there are two major challenges of using ESP8266. The first one is lack of analog to digital (ADC) pins, hence by default only one sensor can be used. The second one is it's base voltage 3.3 Volts is not enough to trigger relays. Though there are sensors and relays that are rated 3.3V, they are not commonly available in the market. The most common ones are rated 5V. It is the intention of this project to solve these problems consolidate it into one integrated solution. 
 
 We will also focus on a comprehensive documentation so that majority of the users will easily comprehend the technical aspects. This documentation is expected to be updated frequently. 
 
-There will be 2 types of build. First, the breadboard version and second, the prototyping PCB version. A prototyping PCB is readily available in the market. Take note that we will not design nor etch a PCB board. 
+There will be 2 types of build. First, the breadboard version and second, the prototyping PCB version. Take note that we will not design nor etch a PCB board. 
 
 The sequel of this project is called Cloud-E8 where you can now hook this up on the web. You can track your sensor data realtime, control your devices in the field and save these data on a database. 
 
@@ -49,8 +49,4 @@ The build is modularized into 4 parts:
 1. Arduino IDE (Free) - for writing ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
-<<<<<<< HEAD
 4. Sketchup (Free) - for 3D Modelling
-=======
-4. Sketchup (Free) - for 3D Modelling
->>>>>>> 2892c11bffcedc35297b400fa188f42194837911
