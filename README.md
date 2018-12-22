@@ -59,3 +59,8 @@ The build is modularized into 4 parts:
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
 2. Open the IDE and click: File -> Preferences -> Additional Boards Manager --> Paste this link: http://arduino.esp8266.com/stable/package_esp8266com_index.json
 3. Then click: Tools -> Board -> Board Manager -> search ESP8266 Community, then click install
+4. Then click again the Tools -> Board -> NodeMCU 1.0 (ESP12E Module)
+5. Then click again the Tools -> PORT -> USB0 (or anything that works)
+6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, here's the reference on how to fix it: https://tinyurl.com/yamurc2q
+7. By now, you should be ready to make your sketch (code). 
+
