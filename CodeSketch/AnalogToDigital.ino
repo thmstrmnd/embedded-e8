@@ -41,23 +41,28 @@ void loop() {
   digitalWrite(pinOut00, LOW);                   // Y0
   digitalWrite(pinOut01, LOW);
   digitalWrite(pinOut02, LOW);
-  delay(350);
+  delay(250);
     valueInA0 = analogRead(pinInA0);             // Sensing voltage input in pin A0 and converting to integer values (0 - 1023)
+    Serial.print("A0 = ");                       // Label the ouput 
+    Serial.println (valueInA0);
     delay(750);
   
   digitalWrite(pinOut00, HIGH);                  // Y1
   digitalWrite(pinOut01, LOW);
   digitalWrite(pinOut02, LOW);
-  delay(350);
+  delay(250);
     valueInA1 = analogRead(pinInA0);             // Sensing voltage input in pin A0 and converting to integer values (0 - 1023)
+    Serial.print("A1 = ");                       // Label the ouput 
+    Serial.println (valueInA1);
     delay(750);
 
   digitalWrite(pinOut00, LOW);                   // Y2
   digitalWrite(pinOut01, HIGH);
   digitalWrite(pinOut02, LOW);
-  delay(350);
+  delay(250);
     valueInA2 = analogRead(pinInA0);             // Sensing voltage input in pin A0 and converting to integer values (0 - 1023)
+    Serial.print("A2 = ");                       // Label the ouput 
+    Serial.println (valueInA2);
     delay(750); 
 
 }
-
