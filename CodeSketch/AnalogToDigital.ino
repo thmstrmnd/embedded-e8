@@ -7,10 +7,6 @@ int pinOut01 = D1;
 int pinOut02 = D2;
 int pinOut03 = D3;
 int pinOut04 = D4;
-int pinOut05 = D5;
-int pinOut06 = D6;
-int pinOut07 = D7;
-int pinOut08 = D8; 
 
 int pinInA0 = A0;
 int valueInA0 = 0;
@@ -22,8 +18,8 @@ int valueInA4 = 0;
 void setup() {                
   Serial.begin(9600);
   
-  pinMode(pinOut00, OUTPUT);                    // Setting Pin 13 as output
-  pinMode(pinOut01, OUTPUT);                    // Setting Pin 12 as output
+  pinMode(pinOut00, OUTPUT);                    
+  pinMode(pinOut01, OUTPUT);                    
   pinMode(pinOut02, OUTPUT);
   pinMode(pinOut03, OUTPUT);
   pinMode(pinOut04, OUTPUT);
