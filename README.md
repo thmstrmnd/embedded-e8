@@ -56,4 +56,5 @@ The build is modularized into 4 parts:
 * Follow this link: 
 
 ### Microcontroller Setup and Code Upload
-### Setting Up Firmware
+1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
+2. 
