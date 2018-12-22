@@ -6,9 +6,9 @@
 2. General 
 3. Development Principles
 3. Bill of Materials
-4. Software Used
-5. Fundamentals of Electronics
-6. Layman's Diagram
+4. Software Tools
+5. Connection Diagram
+6. Setting Up ESP
 
 ### Mission
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -46,7 +46,7 @@ The build is modularized into 4 parts:
 2. Stand-off | Qty 6
 
 ### Software Tools
-1. Arduino IDE (Free) - for writing ESP codes
+1. Arduino IDE (Free) - for writing and uploading ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
 4. Sketchup (Free) - for 3D Modelling
