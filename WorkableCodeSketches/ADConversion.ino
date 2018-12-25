@@ -1,6 +1,4 @@
-/*
-  MODULE 2: EXTENDING ANALOG TO DIGITAL CONVERSION TO 5 PINS
-*/
+/* 5 ANALOG SENSORS */
  
 int pinOut00 = D0;
 int pinOut01 = D1;
