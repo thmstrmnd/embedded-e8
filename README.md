@@ -38,22 +38,22 @@ The build is modularized into 4 parts:
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
 2. Multiplexer | Qty 1 | https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide
 3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
-4. Transistor Arrays | Qty 2 | http://www.alldatasheet.com/datasheet-pdf/pdf/470263/TOSHIBA/ULN2004APG.html
-5. Half-sized Breadboard | Qty 3 |
-6. LEDs Blue and Green | Qty 1 each
+4. ULN2003 or ULN2004APG | Qty 1 | http://www.alldatasheet.com/datasheet-pdf/pdf/470263/TOSHIBA/ULN2004APG.html
+5. Half-sized Breadboard | Qty 3 | 
+6. Diodes | Qty 9| 
+
+All these components are available locally. You can buy them in Lazada as well. 
 
 ### For Prototype PCB 
-1. WeMos D1 Mini, Multiplexer, Level Converter, Transistor Arrays, LEDs Blue and Green
-2. Stand-off | Qty 6
+Note: To follow after few months of tests. 
 
 ## Software Tools <a name="tools"></a>
 1. Arduino IDE (Free) - for writing and uploading ESP codes
 2. DraftSight (Free) - for drawing schematics
 3. Linux Mint (Free) - desktop OS
-4. Sketchup (Free) - for 3D Modelling
 
 ## Connection Diagram <a name="connection"></a>
-* Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/ConnectionDiagram)
+Now you can start wiring components. Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/ConnectionDiagram) for your guide. 
 
 ## Microcontroller Setup and Code Upload <a name="setup"></a>
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
@@ -62,5 +62,5 @@ The build is modularized into 4 parts:
 4. Then click again the Tools -> Board -> NodeMCU 1.0 (ESP12E Module)
 5. Then click again the Tools -> PORT -> USB0 (or anything that works)
 6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, here's the reference on how to fix it: https://tinyurl.com/yamurc2q
-7. By now, you should be ready to make your sketch (code). 
+7. By now, you should be ready to make your sketch (code). Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
 
