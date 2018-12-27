@@ -53,7 +53,7 @@ The build is modularized into 4 parts:
 4. Sketchup (Free) - for 3D Modelling
 
 ## Connection Diagram <a name="connection"></a>
-* Follow this link: 
+* Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/ConnectionDiagram)
 
 ## Microcontroller Setup and Code Upload <a name="setup"></a>
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
