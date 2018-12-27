@@ -9,6 +9,8 @@
 4. [Software Tools](#tools)
 5. [Connection Diagram](#connection)
 6. [Microcontroller Setup and Code Upload](#setup)
+7. [Final Assembly and Quick Reference](#final)
+8. More Technical Notes 
 
 ## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -38,14 +40,14 @@ The build is modularized into 4 parts:
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
 2. Multiplexer | Qty 1 | https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide
 3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
-4. ULN2003 or ULN2004APG | Qty 1 | http://www.alldatasheet.com/datasheet-pdf/pdf/470263/TOSHIBA/ULN2004APG.html
+4. ULN2003 or ULN2004APG | Qty 1 | https://www.mouser.com/ds/2/408/ULN2004APG_datasheet_en_20101203-1135705.pdf
 5. Half-sized Breadboard | Qty 3 | 
-6. Diodes | Qty 9| 
+6. 1N4001 Diode | Qty 9|  
 
 All these components are available locally. You can buy them in Lazada as well. 
 
 ### For Prototype PCB 
-Note: To follow after few months of tests. 
+Note: To follow after few months.
 
 ## Software Tools <a name="tools"></a>
 1. Arduino IDE (Free) - for writing and uploading ESP codes
@@ -63,4 +65,6 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 5. Then click again the Tools -> PORT -> USB0 (or anything that works)
 6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, here's the reference on how to fix it: https://tinyurl.com/yamurc2q
 7. By now, you should be ready to make your sketch (code). Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
+
+## Final Assembly and Quick Reference <a name="final"></a>
 
