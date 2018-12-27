@@ -42,7 +42,8 @@ The build is modularized into 4 parts:
 3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
 4. ULN2003 or ULN2004APG | Qty 1 | https://www.mouser.com/ds/2/408/ULN2004APG_datasheet_en_20101203-1135705.pdf
 5. Half-sized Breadboard | Qty 3 | 
-6. 1N4001 Diode | Qty 9|  
+6. 1N4001 Diode | Qty 9 |  
+7. Terminal Blocks | Qty 7 Pairs |
 
 All these components are available locally. You can buy them in Lazada as well. 
 
