@@ -10,8 +10,8 @@
 5. [Connection Diagram](#connection)
 6. [Microcontroller Setup and Code Upload](#setup)
 7. [Final Assembly and Quick Reference](#final)
-8. More Technical Notes* 
-9. Use Cases*
+8. More Technical Notes
+9. Use Cases
 
 ## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
