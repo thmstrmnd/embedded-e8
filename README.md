@@ -10,7 +10,8 @@
 5. [Connection Diagram](#connection)
 6. [Microcontroller Setup and Code Upload](#setup)
 7. [Final Assembly and Quick Reference](#final)
-8. More Technical Notes 
+8. More Technical Notes* 
+9. Use Cases*
 
 ## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -69,4 +70,6 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 
 ## Final Assembly and Quick Reference <a name="final"></a>
 ### Connection Diagram
-![Connection Diagram](AE8-V1.png)
+![Connection Diagram](AE8-diagram.png)
+### Breadboard Layout
+![Breadboard Layout](AE8-breadboard.jpg)
