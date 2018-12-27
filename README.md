@@ -67,5 +67,5 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 7. By now, you should be ready to make your sketch (code). Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
 
 ## Final Assembly and Quick Reference <a name="final"></a>
-[Connection Diagram] (AE8-V1.png)
-
+### Connection Diagram
+![Connection Diagram](AE8-V1.png)
