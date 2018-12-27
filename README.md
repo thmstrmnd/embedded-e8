@@ -2,7 +2,7 @@
 **An open source IoT hardware integration project that extends the capabilities of ESP826 with components that are ready to buy in the market. As a result, fast prototyping and independent development is achieved.**
 
 ## Table of Contents
-1. Mission
+1. .[Mission].(#mission)
 2. General 
 3. Development Principles
 3. Bill of Materials
@@ -10,7 +10,7 @@
 5. Connection Diagram
 6. Microcontroller Setup and Code Upload
 
-## Mission
+## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
 
 ## General 
