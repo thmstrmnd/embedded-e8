@@ -76,10 +76,10 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 ![Breadboard Layout](AE8-breadboard.jpg)
 
 ## Hardware Testing <a name="testing"></a>
-Writeups being developed.
+Writeup being developed.
 
 ## More Technical Notes <a name="technotes"></a>
-Writeups being developed.
+Writeup being developed.
 
 ## Use Cases <a name="usecases"></a>
-Writeups being developed. 
+Writeup being developed. 
