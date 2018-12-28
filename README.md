@@ -5,13 +5,14 @@
 1. [Mission](#mission)
 2. [General](#general) 
 3. [Development Principles](#devprinciples)
-3. [Bill of Materials](#bom)
-4. [Software Tools](#tools)
-5. [Connection Diagram](#connection)
-6. [Microcontroller Setup and Code Upload](#setup)
-7. [Final Assembly and Quick Reference](#final)
-8. More Technical Notes
-9. Use Cases
+4. [Bill of Materials](#bom)
+5. [Software Tools](#tools)
+6. [Connection Diagram](#connection)
+7. [Microcontroller Setup and Code Upload](#setup)
+8. [Final Assembly and Quick Reference](#final)
+9. [Hardware Testing](#testing)
+10. [More Technical Notes](#technotes)
+11. [Use Cases](#usecases)
 
 ## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -73,3 +74,12 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 ![Connection Diagram](AE8-diagram.png)
 ### Breadboard Layout
 ![Breadboard Layout](AE8-breadboard.jpg)
+
+## Hardware Testing <a name="testing"></a>
+Writeups being developed.
+
+## More Technical Notes <a name="technotes"></a>
+Writeups being developed.
+
+## Use Cases <a name="usecases"></a>
+Writeups being developed. 
