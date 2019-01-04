@@ -80,9 +80,8 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 #### M2: Multiplexer Module
 * The multiplexer extends the analog to digital conversion (ADC) to 5. Hence, you can place up to 5 analog sensors simultaneously. Upload the code [ADConversion.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Connect at least 2 analog sensors, then fire up the serial monitor and check whether it reads the values.
 #### M3: Level Conversion Module
-* Writeup being developed
+* Hookup an ultrasonic sensor HC-SR04 with its supply terminals across VCC and GND while its trigger pin at D7 (voltage level converted) and the echo pin is at D8. Upload the code [UltrasonicSensor.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Fire up the serial monitor and check whether it reads the values.
 #### M4: Transistor Array Module
-* Writeup being developed
-
+* Connect a relay with its terminal at VCC and GND while its trigger leg at D3, D4, D5 or D6 pins. Upload the code [DigitalOutput.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Check if it triggers the relay.
 ## Annex <a name="technotes"></a>
 Writeup being developed.
