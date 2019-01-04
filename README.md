@@ -10,9 +10,8 @@
 6. [Connection Diagram](#connection)
 7. [Microcontroller Setup and Code Upload](#setup)
 8. [Final Assembly and Quick Reference](#final)
-9. [Hardware Testing](#testing)
-10. [More Technical Notes](#technotes)
-11. [Use Cases](#usecases)
+9. [Get Started](#start)
+10. [Annex](#technotes)
 
 ## Mission <a name="mission"></a>
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
@@ -67,7 +66,7 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 4. Then click again the Tools -> Board -> NodeMCU 1.0 (ESP12E Module)
 5. Then click again the Tools -> PORT -> USB0 (or anything that works)
 6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, here's the reference on how to fix it: https://tinyurl.com/yamurc2q
-7. By now, you should be ready to make your sketch (code). Follow this [link](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
+7. At this point, you can now start building your projects and prototypes. Here are the sample code [sketches](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
 
 ## Final Assembly and Quick Reference <a name="final"></a>
 ### Connection Diagram
@@ -75,11 +74,15 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 ### Breadboard Layout
 ![Breadboard Layout](AE8-breadboard.jpg)
 
-## Hardware Testing <a name="testing"></a>
-Writeup being developed.
+## Get Started <a name="start"></a>
+#### Module 1: ESP8266 
+* Upload the bare minimum code from the Arduino IDE. If there are errors, check whether you have chosen the right port, have admin access and properly configured the Arduino IDE for ESP8266. 
+#### Module 2: Multiplexer 
+* The multiplexer extends the analog to digital conversion (ADC) to 5. Hence, you can place up to 5 analog sensors simultaneously. Upload the code ADConversion.ino from WorkableCodeSketches folder to ESP8266. Connect at least 2 analog sensors, then fire up the serial monitor and check whether it reads the values.  
+#### Module 3: Level Converter
+* Writeup being developed
+#### Module 4: Transistor Array
+* Writeup being developed
 
-## More Technical Notes <a name="technotes"></a>
+## Annex <a name="technotes"></a>
 Writeup being developed.
-
-## Use Cases <a name="usecases"></a>
-Writeup being developed. 
