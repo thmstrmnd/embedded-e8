@@ -75,13 +75,13 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 ![Breadboard Layout](AE8-breadboard.jpg)
 
 ## Get Started <a name="start"></a>
-#### Module 1: ESP8266 
-* Upload the bare minimum code from the Arduino IDE. If there are errors, check whether you have chosen the right port, have admin access and properly configured the Arduino IDE for ESP8266. 
-#### Module 2: Multiplexer 
-* The multiplexer extends the analog to digital conversion (ADC) to 5. Hence, you can place up to 5 analog sensors simultaneously. Upload the code ADConversion.ino from WorkableCodeSketches folder to ESP8266. Connect at least 2 analog sensors, then fire up the serial monitor and check whether it reads the values.  
-#### Module 3: Level Converter
+#### M1: ESP8266 Module 
+* Upload the bare minimum code from the Arduino IDE. If there are errors, check whether you have chosen the right port, have admin access or have properly configured the Arduino IDE for ESP8266. 
+#### M2: Multiplexer Module
+* The multiplexer extends the analog to digital conversion (ADC) to 5. Hence, you can place up to 5 analog sensors simultaneously. Upload the code [ADConversion.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Connect at least 2 analog sensors, then fire up the serial monitor and check whether it reads the values.
+#### M3: Level Conversion Module
 * Writeup being developed
-#### Module 4: Transistor Array
+#### M4: Transistor Array Module
 * Writeup being developed
 
 ## Annex <a name="technotes"></a>
