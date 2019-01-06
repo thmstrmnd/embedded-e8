@@ -1,4 +1,5 @@
 ## ASSEMBLY E8
+
 **An open source IoT hardware integration project that extends the capabilities of ESP8266 with components that are readily available in the market. As a result, fast prototyping and independent development is achieved.**
 
 ## Table of Contents
@@ -12,11 +13,15 @@
 8. [Final Assembly and Quick Reference](#final)
 9. [Get Started](#start)
 10. [Annex](#technotes)
+11. [Fork, Clone, then Contribute](#fork-clone-contribute)
+12. [License](#license)
 
 ## Mission <a name="mission"></a>
+
 The mission of this project is to be a gateway of IoT education for the young, enthusiasts or professionals and to accelerate adoption of the IoT technology in the Philippines in private and business sectors to improve productivity.
 
 ## General <a name="general"></a>
+
 ESP8266 is an impressive microcontroller because of its low cost and small form factor making IoT truly possible to be democratized. However, there are two major challenges of using ESP8266. The first one is lack of analog to digital (ADC) pins, hence by default only one sensor can be used. The second one is it's base voltage 3.3 Volts is not enough to trigger relays. Though there are sensors and relays that are rated 3.3V, they are not commonly available in the market. The most common ones are rated 5V. It is the intention of this project to solve these problems consolidate it into one integrated solution. 
 
 We will also focus on a comprehensive documentation so that majority of the users will easily comprehend the technical aspects. This documentation is expected to be updated frequently. 
@@ -26,6 +31,7 @@ There will be 2 types of build. First, the breadboard version and second, the pr
 The sequel of this project is called Cloud-E8 where you can now hook this up on the web. You can track your sensor data realtime, control your devices in the field and save these data on a database. 
 
 ## Development Principles <a name="devprinciples"></a>
+
 Two main principles of this build: 
 1. Quick and easy to understand 
 2. Quick and easy to deploy
@@ -37,7 +43,9 @@ The build is modularized into 4 parts:
 4. The digital outputs and PWMs 
 
 ## Bill of Materials <a name="bom"></a>
-### For Breadboard Setup 
+
+### For Breadboard Setup
+
 1. WeMos D1 Mini | Qty 1 | https://wiki.wemos.cc/products:d1:d1_mini
 2. Multiplexer | Qty 1 | https://learn.sparkfun.com/tutorials/multiplexer-breakout-hookup-guide
 3. Level Converter | Qty 1 | https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide
@@ -49,6 +57,7 @@ The build is modularized into 4 parts:
 All these components are available locally. You can buy them in Lazada as well. 
 
 ### For Prototype PCB 
+
 Note: To follow after few months.
 
 ## Software Tools <a name="tools"></a>
@@ -69,19 +78,45 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 7. At this point, you can now start building your projects and prototypes. Here are the sample code [sketches](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
 
 ## Final Assembly and Quick Reference <a name="final"></a>
+
 ### Connection Diagram
-![Connection Diagram](AE8-diagram.png)
+![Connection Diagram](./img/AE8-diagram.png)
+
 ### Breadboard Layout
-![Breadboard Layout](AE8-breadboard.jpg)
+![Breadboard Layout](./img/AE8-breadboard.jpg)
 
 ## Get Started <a name="start"></a>
+
 #### M1: ESP8266 Module 
 * Upload the bare minimum code from the Arduino IDE. If there are errors, check whether you have chosen the right port, have admin access or have properly configured the Arduino IDE for ESP8266. 
+
 #### M2: Multiplexer Module
 * The multiplexer extends the analog to digital conversion (ADC) to 5. Hence, you can place up to 5 analog sensors simultaneously. Upload the code [ADConversion.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Connect at least 2 analog sensors, then fire up the serial monitor and check whether it reads the values.
+
 #### M3: Level Conversion Module
 * Hookup an ultrasonic sensor HC-SR04 with its supply terminals across VCC and GND while its trigger pin at D7 (voltage level converted) and the echo pin is at D8. Upload the code [UltrasonicSensor.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Fire up the serial monitor and check whether it reads the values.
+
 #### M4: Transistor Array Module
 * Connect a relay with its terminal at VCC and GND while its trigger leg at D3, D4, D5 or D6 pins. Upload the code [DigitalOutput.ino](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches) to ESP8266. Check if it triggers the relay.
+
 ## Annex <a name="technotes"></a>
 Writeup being developed.
+
+## Fork, Clone, then Contribute <a id="fork-clone-contribute"></a>
+
+This project needs your help. You can voluntarily help us improve the design of the software and hardware. In order for you to do that, you need to do the following:  
+
+### Fork  
+You need to *fork* -- create a copy, this repository in your personal GitHub account.  
+- [How to fork a repository?](https://help.github.com/articles/fork-a-repo/)
+
+### Clone
+Then, you need to *clone* -- create a local copy, it into your machine.  
+- [How to clone it properly?](#)
+
+### Contribute
+Finally, you can start *hacking* -- , it and eventually create a pull request.  
+- [How to create a pull request?](#)
+
+## License <a id="license"></a>
+To be decided.  
