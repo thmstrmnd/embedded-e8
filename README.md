@@ -1,4 +1,4 @@
-## ASSEMBLY E8
+## ASSEMBLY IOT | EMBEDDED E8
 
 **An open source IoT hardware integration project that extends the capabilities of ESP8266 with components that are readily available in the market. As a result, fast prototyping and independent development is achieved.**
 
