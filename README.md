@@ -108,15 +108,12 @@ This project needs your help. You can voluntarily help us improve the design of 
 
 ### Fork  
 You need to *fork* -- create a copy, this repository in your personal GitHub account.  
-- [How to fork a repository?](https://help.github.com/articles/fork-a-repo/)
 
 ### Clone
 Then, you need to *clone* -- create a local copy, it into your machine.  
-- [How to clone it properly?](#)
 
 ### Contribute
 Finally, you can start *hacking* -- , it and eventually create a pull request.  
-- [How to create a pull request?](#)
 
 ## License <a id="license"></a>
 MIT
