@@ -108,13 +108,10 @@ Then, you need to *clone* -- create a local copy, it into your machine.
 ### Contribute
 Finally, you can start *hacking* -- , it and eventually create a pull request.  
 
-## License <a id="license"></a>
-MIT
-
-## 
+## License: <a id="license"> MIT</a>
 
 <p align="center"> 
 <img src="https://github.com/TheAssemblyProject/About-This-Project/blob/master/logo.png">
 </p>
 
-<h3 align="center"> This repository is part of an open source project series called The Assembly Project. </h3>
+<h3 align="center"> This repository is part of an open source project series called <a href="https://github.com/TheAssemblyProject">The Assembly Project.</a></h3>
