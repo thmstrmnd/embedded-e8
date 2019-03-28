@@ -32,9 +32,12 @@ The sequel of this project is called Cloud-E8 where you can now hook this up on 
 
 ## Development Principles <a name="devprinciples"></a>
 
-Two main principles of this build: 
-1. Quick and easy to understand 
-2. Quick and easy to deploy
+Three main principles of this build: 
+1. Easy to understand
+2. Modular build
+3. Affordable costs 
+
+With these three development principles, the barrier to entry will drop. 
 
 The build is modularized into 4 parts:
 1. The microcontroller and the safety bus
