@@ -127,4 +127,4 @@ MIT
 <img src="https://github.com/TheAssemblyProject/About-This-Project/blob/master/logo.png">
 </p>
 
-<h3 align="center"> This repository is part of a bigger project series called The Assembly Project. </h3>
+<h3 align="center"> This repository is part of an open source project series called The Assembly Project. </h3>
