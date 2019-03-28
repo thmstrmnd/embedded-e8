@@ -123,7 +123,8 @@ MIT
 
 ## 
 
-<h3 align="center"> This repository is part of a bigger project series called The Assembly Project. </h3>
 <p align="center"> 
 <img src="https://github.com/TheAssemblyProject/About-This-Project/blob/master/logo.png">
 </p>
+
+<h3 align="center"> This repository is part of a bigger project series called The Assembly Project. </h3>
