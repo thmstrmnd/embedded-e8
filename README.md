@@ -1,3 +1,7 @@
+<p align="center"> 
+<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Embedded_E8/blob/master/img/logo.png">
+</p>
+
 ## Open Build IoT - Embedded E8
 
 **An open source IoT hardware integration project that extends the capabilities of ESP8266 with components that are readily available in the market. As a result, fast prototyping and independent development is achieved.**
@@ -112,6 +116,4 @@ Then, you need to *clone* -- create a local copy, it into your machine.
 Finally, you can start *hacking* -- , it and eventually create a pull request.  
 
 ## License: <a id="license"> MIT</a>
-<p align="center"> 
-<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Embedded_E8/blob/master/img/logo.png">
-</p>
+
