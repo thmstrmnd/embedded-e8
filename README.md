@@ -112,9 +112,6 @@ Then, you need to *clone* -- create a local copy, it into your machine.
 Finally, you can start *hacking* -- , it and eventually create a pull request.  
 
 ## License: <a id="license"> MIT</a>
-
 <p align="center"> 
 <img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Embedded_E8/blob/master/img/logo.png">
 </p>
-
-<h3 align="center"> This repository is part of an open source project series called <a href="https://github.com/OpenBuildProject">Open Build Project.</a></h3>
