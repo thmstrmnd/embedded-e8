@@ -77,7 +77,7 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 3. Then click: Tools -> Board -> Board Manager -> search ESP8266 Community, then click install
 4. Then click again the Tools -> Board -> NodeMCU 1.0 (ESP12E Module)
 5. Then click again the Tools -> PORT -> USB0 (or anything that works)
-6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, here's the reference on how to fix it: https://tinyurl.com/yamurc2q
+6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, run this command in your terminal to change the permission: $ sudo chown user path. Where "user" is your machine's username and path is the location of the permission denied folder.
 7. At this point, you can now start building your projects and prototypes. Here are the sample code [sketches](https://github.com/IoTPH/Assembly-E8/tree/master/WorkableCodeSketches). 
 
 ## Final Assembly and Quick Reference <a name="final"></a>
