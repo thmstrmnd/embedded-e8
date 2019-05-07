@@ -16,9 +16,8 @@
 7. [Microcontroller Setup and Code Upload](#setup)
 8. [Final Assembly and Quick Reference](#final)
 9. [Get Started](#start)
-10. [Annex](#technotes)
-11. [Fork, Clone, then Contribute](#fork-clone-contribute)
-12. [License](#license)
+10. [Fork, Clone, then Contribute](#fork-clone-contribute)
+11. [License](#license)
 
 ## Mission <a name="mission"></a>
 
