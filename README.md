@@ -72,7 +72,7 @@ Now you can start wiring components. Follow this [link](https://github.com/IoTPH
 
 ## Microcontroller Setup and Code Upload <a name="setup"></a>
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
-2. Open the IDE and click: File -> Preferences -> Additional Boards Manager --> Paste this link: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+2. Open the IDE and click: File -> Preferences -> Additional Boards Manager --> Paste this link: https://arduino.esp8266.com/stable/package_esp8266com_index.json
 3. Then click: Tools -> Board -> Board Manager -> search ESP8266 Community, then click install
 4. Then click again the Tools -> Board -> NodeMCU 1.0 (ESP12E Module)
 5. Then click again the Tools -> PORT -> USB0 (or anything that works)
