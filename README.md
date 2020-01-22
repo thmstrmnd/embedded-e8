@@ -1,8 +1,4 @@
-<p align="center"> 
-<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Embedded_E8/blob/master/img/logo.png">
-</p>
-
-## Open Build IoT - Embedded E8
+## Embedded E8
 
 **An open source IoT hardware integration project that extends the capabilities of ESP8266 with components that are readily available in the market. As a result, fast prototyping and independent development is achieved.**
 
